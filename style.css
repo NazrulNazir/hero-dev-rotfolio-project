@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*---------Common Area----------*/
+.btn {
+    font-size: 20px;
+    background: #FD6E0A;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* ==================================================== */
+                     /* Header*/ 
+/* =====================================================*/
+
+.header-area {
+    /* background-color: #FFF8F3; */
+    background: url("images/developer.png"), url("images/header_bg.png"), #FFF8F3;
+    background-position: 55px 20px, right bottom;
+    background-repeat: no-repeat;
+   }
+.header-left-logo {
+    font-size: 45px;
+    font-weight: 700;
+}
+.header-area h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.header-area h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin: 6px 0 10px 0;
+}
+.header-area p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #FD6E0A;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+}
+.header-area .btn-area {
+    display: flex;
+    gap: 25px;
+}
+/* .header-area .btn-area .download-btn{
+    background: #FD6E0A;
+    border: none; 
+    padding: 8px 12px;
+} */
+
+.header-area .btn-area .contact-btn {
+    border: none;
+    padding: 8px 12px;
+    background: transparent;
+    border:1px solid #FD6E0A;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#FD6E0A
+}
+
+.header-area nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.header-area ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-area ul li a{
+    text-decoration: none;
+}
+
+.header-right {
+    font-size: 20px;
+}
+
+.header-buttom {
+    display: flex;
+    margin: 0 30px 0 280px;
+    align-items: center;
+}
+
+.hardy-img img {
+    width: 520px;
+    height: 650px;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+
+
+/* ==================================================== */
+                     /* About*/ 
+/* =====================================================*/
+
+.about {
+    width: 51%;
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 150px auto;
+}
+
+.about h1 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about .about-des {
+    margin: 30px 0;
+    color: #757575;
+}
+
+.about .about-mary-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .about-mary-details p {
+    color: #757575;
+    font-size: 20px;
+}
+
+.about .about-mary-details h2 {
+    color:#474747;
+    font-size: 20px;
+}
