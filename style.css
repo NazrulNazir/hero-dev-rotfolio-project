@@ -17,6 +17,8 @@
     padding: 8px 12px;
     border-radius: 3px;
     color: #fff;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 /* ==================================================== */
@@ -90,6 +92,7 @@
 
 .header-area ul li a{
     text-decoration: none;
+    color: #474747;
 }
 
 .header-right {
@@ -147,4 +150,192 @@
 .about .about-mary-details h2 {
     color:#474747;
     font-size: 20px;
+}
+
+/* ==================================================== */
+                     /* what i do*/ 
+/* =====================================================*/
+
+.what-i-do {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.what-i-do h1 {
+    text-align: center;
+    color:#181818;
+    font-size: 35px;
+}
+.what-i-do .description {
+    text-align: center;
+    color:#757575;
+    font-size: 18px;
+    margin: 30px 0 50px;
+    background-color: white;
+}
+
+.what-i-do .js-framework {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.what-i-do .js-framework div {
+    padding: 15px 15px 15px 30px;
+    box-shadow: 0px 0px 10px #757575;
+    border-radius: 5px;
+}
+
+.what-i-do img {
+    margin: 0 0 38px 0;
+}
+
+.what-i-do .js-framework h2 {
+    font-size: 20px;
+    color:#181818;
+    font-weight: bold;
+}
+
+.what-i-do .js-framework p {
+    font-size: 16px;
+    color:#757575;
+    margin-top: 20px;
+}
+
+/* ==================================================== */
+                /* summary of resume*/ 
+/* =====================================================*/
+
+.summary-of-resume {
+    margin: 130px auto 0;
+    width: 71%;
+    max-width: 1140px;
+    
+}
+
+.summary-of-resume .summary-header {
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+.summary-of-resume .resume-flex-common {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top: 30px;
+}
+
+.summary-of-resume .resume-flex-common div h1,
+.summary-of-resume .resume-flex-common div h2,
+.summary-of-resume .resume-flex-common div h3,
+.summary-of-resume .resume-flex-common div p {
+    padding-right: 50px;
+}
+
+.summary-of-resume .resume-flex-common h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747;
+}
+
+.summary-of-resume .resume-flex-common h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747;
+}
+
+.summary-of-resume .resume-flex-common h3 {
+    font-size: 20;
+    font-weight: 600px;
+    color:#757575;
+}
+
+.summary-of-resume .resume-flex-common p {
+    margin: 20px 0 30px;
+    font-size: 16px;
+    color:#757575;
+}
+
+.summary-of-resume .summary-btn {
+    background:#FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.summary-of-resume .cv-download-btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 113px 0;
+}
+
+/* ==================================================== */
+                  /* Footer Area*/ 
+/* =====================================================*/
+
+footer {
+    background:#FFF8F3;
+}
+
+footer .footer-area {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    padding: 130px 0 100px;
+
+}
+
+footer .footer-area .contact{
+    width: 60%;
+}
+footer .footer-area form  {
+    width: 40%;
+}
+
+footer .footer-area .contact h1,
+footer .footer-area form h1{
+    font-size: 35px;
+    color:#181818;
+    font-weight: bold;
+}
+footer .footer-area form h1 {
+    margin-bottom: 30px;
+}
+
+footer .footer-area .contact p {
+    margin: 30px 0;
+    font-size: 16px;
+    color:#474747;
+}
+
+footer .footer-area .contact img {
+    margin-right: 20px;
+}
+
+footer .footer-area form input {
+    width: 100%;
+    padding: 12px 0 12px 8px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+footer .footer-area form textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 12px 0 12px 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 4px;
 }
